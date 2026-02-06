@@ -1,0 +1,113 @@
+/* ================= EDUCATION SECTION ================= */
+
+.education-section {
+  padding: 80px 80px;
+  background: #020617;
+  color: #ffffff;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #4fd1c5;
+  text-align: center;
+  margin-bottom: 60px;
+  position: relative;
+}
+
+.section-title::after {
+  content: "";
+  width: 80px;
+  height: 4px;
+  background: linear-gradient(90deg, #4fd1c5, #00e5ff);
+  display: block;
+  margin: 12px auto 0;
+  border-radius: 4px;
+}
+
+.education-container {
+  position: relative;
+  max-width: 800px;
+  margin: auto;
+  padding-left: 30px;
+  border-left: 2px solid rgba(79, 209, 197, 0.3);
+}
+
+.education-card {
+  position: relative;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(79, 209, 197, 0.25);
+  padding: 22px 25px;
+  border-radius: 14px;
+  border-right: 5px solid aquamarine;
+  margin-bottom: 35px;
+  transition: all 0.3s ease;
+}
+
+.education-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 15px 35px rgba(79, 209, 197, 0.25);
+}
+
+.edu-dot {
+  position: absolute;
+  left: -41px;
+  top: 28px;
+  width: 14px;
+  height: 14px;
+  background: #4fd1c5;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(79, 209, 197, 0.8);
+}
+
+.education-card h3 {
+  font-size: 1.4rem;
+  color: #ffffff;
+  margin-bottom: 6px;
+}
+
+.edu-stream {
+  color: #4fd1c5;
+  font-weight: 600;
+}
+
+.edu-institute {
+  color: #cbd5e1;
+  margin-top: 4px;
+}
+
+.edu-year {
+  color: #94a3b8;
+  font-size: 0.9rem;
+  margin-top: 6px;
+  font-weight: 600;
+}
+#java{
+  color: #00e5ff;
+}
+
+.edu-score {
+  margin-top: 8px;
+  font-weight: 600;
+  color: #00e5ff;
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 768px) {
+  .education-section {
+    padding: 60px 20px;
+  }
+
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .education-container {
+    padding-left: 20px;
+  }
+
+  .edu-dot {
+    left: -32px;
+  }
+}

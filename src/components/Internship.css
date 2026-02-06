@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+}
+
+.internship-section {
+  padding: 80px 20px;
+  background: #020617;
+  color: #e5e7eb;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 50px;
+  color: #38bdf8;
+}
+
+.internship-container {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.internship-card {
+  background: #0f172a;
+  border-radius: 18px;
+  padding: 30px;
+  max-width: 520px;
+  width: 100%;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.6);
+  transition: transform 0.3s ease;
+}
+
+.internship-card:hover {
+  transform: translateY(-10px);
+}
+
+.internship-card h3 {
+  font-size: 24px;
+  color:aqua;
+  margin-bottom: 10px;
+}
+
+.duration {
+  font-size: 14px;
+  color: #caca14;
+  margin-bottom: 16px;
+}
+
+.internship-card ul {
+  margin-bottom: 20px;
+  padding-left: 18px;
+}
+
+.internship-card ul li {
+  margin-bottom: 8px;
+  line-height: 1.6;
+}
+
+.certificate-text {
+  line-height: 1.6;
+  margin-bottom: 12px;
+}
+
+.issue {
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: #cbd5f5;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 22px;
+  background: linear-gradient(135deg, #38bdf8, #2563eb);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 28px;
+  }
+
+  .internship-card {
+    padding: 22px;
+  }
+}
